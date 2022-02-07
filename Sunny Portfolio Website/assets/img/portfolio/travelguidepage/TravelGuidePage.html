@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+  	<title>AQUARIUM OF THE PACIFIC</title>
+  	<meta name="author" content="Sunny.gao">
+  	<meta name="description" content="Sunny's Travel Guide Page">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+ <section class="showcase">
+   <header>
+     <h2 class="logo">Sunny's Travel Guide</h2>
+     <div class="toggle"></div>
+   </header>
+
+   <video src="Fish.mp4" muted loop autoplay></video>
+
+   <div class="overlay"></div>
+   <div class="text">
+     <h2>AQUARIUM OF THE PACIFIC </h2>
+     <h3>Exploring The Sea World</h3>
+     <p>Discover sunny Southern California and Baja, the frigid waters of the Northern Pacific, and the colorful reefs of the Tropical Pacific.
+       Come face-to-face with the ocean’s ultimate predators in Shark Lagoon, hand-feed colorful lorikeet birds, and watch our Magellanic penguins.
+       Discover Pacific Visions where you explore underwater realms and future possibilities.</p>
+     <a href="https://www.aquariumofpacific.org/">Explore</a>
+   </div>
+
+   <ul class="social">
+     <li><a href="https://www.facebook.com/AquariumofthePacific/"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+     <li><a href="https://twitter.com/AquariumPacific"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+     <li><a href="https://www.instagram.com/aquariumpacific/"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+   </ul>
+ </section>
+
+ <div class="menu">
+   <ul>
+     <li><a href="https://www.aquariumofpacific.org/visit">Visit</a></li>
+     <li><a href="https://www.dailynews.com/tag/aquarium-of-the-pacific/">News</a></li>
+     <li><a href="https://www.youtube.com/c/aquariumofthepacific/playlists">Youtube</a></li>
+          <li><a href="https://www.expedia.com/things-to-do/aquarium-of-the-pacific-timed-tickets.a181771.activity-details?endDate=2021-11-01&location=Harbor%2C%20California%2C%20United%20States%20of%20America&rid=553248635975748919&startDate=2021-10-18">Expedia</a></li>
+     <li><a href="https://www.visitlongbeach.com/">Long Beach</a></li>
+   </ul>
+ </div>
+
+<script>
+ const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+</script>
+
+<div class="footer">
+  <h3> &copy; Sunny. Gao | 2021 | Duke University | Computational Media</h3>
+</div>
+
+</body>
+
+</html>
